@@ -6,7 +6,7 @@
 //
 
 import Testing
-@testable import VersionNumbers
+@testable import Versioning
 
 struct SemVerTests
 {
