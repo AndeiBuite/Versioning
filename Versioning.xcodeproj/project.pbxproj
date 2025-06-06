@@ -23,6 +23,7 @@
 /* Begin PBXFileReference section */
 		8B8977602DF1B50A00B20A75 /* Versioning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Versioning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B8977682DF1B50A00B20A75 /* VersioningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VersioningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B8977F22DF28DB000B20A75 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -73,6 +74,7 @@
 		8B8977562DF1B50A00B20A75 = {
 			isa = PBXGroup;
 			children = (
+				8B8977F22DF28DB000B20A75 /* Package.swift */,
 				8B8977622DF1B50A00B20A75 /* Versioning */,
 				8B89776C2DF1B50A00B20A75 /* VersioningTests */,
 				8B8977612DF1B50A00B20A75 /* Products */,
