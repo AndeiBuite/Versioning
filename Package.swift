@@ -2,25 +2,26 @@
 import PackageDescription
 
 let package = Package(
-    name:"Versioning",
+    name: "Versioning",
     platforms: [
         .macOS(.v12)
     ],
     products: [
         .library(
-            name:"Versioning",
+            name: "Versioning",
             targets: ["Versioning"]
         )
     ],
     dependencies: [],
     targets: [
         .target(
-            name:"Versioning",
-            dependencies: []
+            name: "Versioning",
+            path: "Sources"
         ),
         .testTarget(
-            name:"VersioningTests",
-            dependencies: ["Versioning"]
+            name: "VersioningTests",
+            dependencies: ["Versioning"],
+            path: "Tests"
         )
     ]
 )

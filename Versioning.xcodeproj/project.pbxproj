@@ -27,7 +27,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		8B8977702DF1B50A00B20A75 /* Exceptions for "Versioning" folder in "Versioning" target */ = {
+		8B8977702DF1B50A00B20A75 /* Exceptions for "Sources" folder in "Versioning" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			publicHeaders = (
 				Versioning.h,
@@ -37,17 +37,17 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		8B8977622DF1B50A00B20A75 /* Versioning */ = {
+		8B8977622DF1B50A00B20A75 /* Sources */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				8B8977702DF1B50A00B20A75 /* Exceptions for "Versioning" folder in "Versioning" target */,
+				8B8977702DF1B50A00B20A75 /* Exceptions for "Sources" folder in "Versioning" target */,
 			);
-			path = Versioning;
+			path = Sources;
 			sourceTree = "<group>";
 		};
-		8B89776C2DF1B50A00B20A75 /* VersioningTests */ = {
+		8B89776C2DF1B50A00B20A75 /* Tests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = VersioningTests;
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,8 +75,8 @@
 			isa = PBXGroup;
 			children = (
 				8B8977F22DF28DB000B20A75 /* Package.swift */,
-				8B8977622DF1B50A00B20A75 /* Versioning */,
-				8B89776C2DF1B50A00B20A75 /* VersioningTests */,
+				8B8977622DF1B50A00B20A75 /* Sources */,
+				8B89776C2DF1B50A00B20A75 /* Tests */,
 				8B8977612DF1B50A00B20A75 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -117,7 +117,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				8B8977622DF1B50A00B20A75 /* Versioning */,
+				8B8977622DF1B50A00B20A75 /* Sources */,
 			);
 			name = Versioning;
 			packageProductDependencies = (
@@ -140,7 +140,7 @@
 				8B89776B2DF1B50A00B20A75 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				8B89776C2DF1B50A00B20A75 /* VersioningTests */,
+				8B89776C2DF1B50A00B20A75 /* Tests */,
 			);
 			name = VersioningTests;
 			packageProductDependencies = (
